@@ -1,0 +1,157 @@
+
+body{
+
+	margin: 0px;
+	padding:0px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+
+	margin-top:0px;
+	background-color:  #5d0202;
+	padding: 25px;
+	text-align: center;
+}
+
+header span{
+
+	padding: 10px 10px;
+	text-align: center;
+	display:inline-block;
+	background-color: red;
+
+
+}
+header span:hover{
+
+	padding: 10px 10px;
+	text-align: center;
+	display:inline-block;
+	background-color: black;
+
+
+}
+header span a{
+
+	text-decoration: none;
+	text-transform: uppercase;
+
+
+}
+
+
+footer{
+
+	margin-top:10px;
+	background-color:  darkgrey;
+	padding: 25px;
+	text-align: center;
+}
+
+footer span{
+
+	padding: 25px;
+
+}
+
+.topBanner{
+
+
+	width: 100%;
+	height:auto;
+
+
+}
+
+
+.topHeader h1{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+main {
+	padding-top: 50px;
+
+	text-align: center;
+
+}
+
+.maincontent {
+	padding-top: 50px;
+
+	text-align: justify;
+	margin: 10px 50px  ;
+
+}
+
+.maincontent h1{ text-align: center;
+	display: block;
+	margin: 0 auto; }
+
+.item{
+
+	width:25%;
+	height:250px;
+	background-color: lightgrey;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.itemImage{
+
+	width: 100%;
+	height: 200px;
+
+}
+
+.item h4{
+
+	font-size: 14px;
+}
+
+.item h4 a:link, a:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center; 
+	text-decoration: none;
+}
+
+
+.formdiv {
+	width: 60%;
+	height: 400px;
+	background-color: #e8dedd;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#contact{
+
+	padding-top: 25px;
+
+}
+
+.inputbox {
+	padding-top: 15px;
+	padding-left: 5px;
+	margin-top: 18px;
+	width:250px;
+	border-left: none;
+	border-right: none;
+	border-top:none;
+	border-bottom: 1px solid;
+	background-color: #e8dedd;
+}
+.submit{
+
+	background-color: #f44336;
+	color: white;
+	padding: 15px 40px;
+	text-align: center; 
+	text-decoration: none;
+	margin-top: 20px;
+}
